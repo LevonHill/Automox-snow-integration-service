@@ -1,7 +1,7 @@
 //only express
 const express = require('express');
 const syncRoutes = require('./routes/syncRoutes');
-const config = require('../config/config');
+const config = require('./config/config');
 
 
 console.log(config.serviceNow.url);
